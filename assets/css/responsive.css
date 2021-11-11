@@ -1,0 +1,279 @@
+/* All resposive css here */
+@media(min-width:200px) and (max-width:575px){
+    .tk {
+    padding: 0;
+    margin: 0;
+}
+.tk {
+    padding: 0;
+    margin: 0;
+}
+.start {
+    font-size: 13px;
+}
+.addtocart {
+    text-align: center;
+    margin: 6px;
+}
+
+}
+
+
+@media(min-width:577px) and (max-width:2000px){
+    .mobile-header-area{
+        display: none;
+    }
+    .mobile-footer{
+        display: none;
+    }
+    .mob-side-cat-bar{
+        display: none;
+    }
+
+}
+
+
+
+@media screen and (max-width:576px){
+/*all display none for mobile device*/
+.header{
+    display: none;
+}
+.ourmal.mt.pb {
+    display: none;
+}
+.header-down-menu {
+    display: none;
+}
+
+.down-logo {
+    display: none;
+}
+.search{
+    display: none;
+}
+.col-sm-3.cart {
+    display: none;
+}
+.card.card-body {
+    display: none;
+}
+.copy-right {
+    display: none !important;
+}
+
+/*mobile header */
+.mobile-header-area {
+    background: #26d59b;
+    overflow: hidden;
+    width: 100%;
+    line-height: 42px;
+}
+.back-icon {
+    width: 15%;
+    overflow: hidden;
+    float: left;
+    margin-left: 10px;
+}
+.back-icon {
+    width: 15%;
+    overflow: hidden;
+    float: left;
+    margin-left: 10px;
+}
+.back-icon span {
+    color: white;
+}
+.cart-icon {
+    width: 70%;
+    float: left;
+    text-align: right;
+}
+.thre-dot-icon {
+    width: 10%;
+    float: right;
+}
+
+.cart-icon span {
+    margin-left: 25px;
+    color: white;
+}
+.fas.fa-cart-arrow-down {
+    color: #97460b;
+}
+.m-serch {
+    margin-right: 26px;
+}
+.dot-three {
+    position: absolute;
+    right: 6%;
+    color: white;
+}
+.dropdown-menu {
+    min-width: 40% !important;
+
+}
+.dropdown-menu.show li {
+    text-align: ;
+    position: ;
+    display: block;
+    border-bottom: 1px solid #ececdb;
+    padding: 1px 21px;
+}
+.dropdown-menu.show a {
+    text-align: ;
+    text-decoration: none;
+    color: #81887f;
+}
+
+/*mobile footer section*/
+.footer-section.pb {
+    display: none;
+}
+.copy_right {
+    background: #26d59b;
+    display: block;
+    padding: 10px 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+/* mobile fix footer*/
+.home-fix {
+    width: 24%;
+    float: left;
+}
+.cart-fix {
+    width: 24%;
+    float: left;
+}
+.fix-footer {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.categroy-fix {
+    width: 25%;
+    float: left;
+}
+.fix-footer ul li {
+    display: block;
+    font-size: 24px;
+    color: gray;
+}
+.fix-footer ul {
+    margin-left: 15px;
+    padding: 0;
+}
+.fix-footer span {
+    color: #8c8b88;
+    text-transform: capitalize;
+}
+
+/*mobile device category page */
+.m-item li {
+    display: block;
+}
+.m-item {
+    text-align: center;
+}
+.mob-cat {
+    width: 27%;
+    background: #f9f8f8;
+    float: left;
+}
+.m-item {
+    text-align: center;
+}
+.m-item li{
+    color: gray;
+}
+.m-item span {
+    color: #9f9c95;
+    text-transform: capitalize;
+    padding: 3px;
+}
+.m-cat-item.xl-size {
+    width: 30%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.m-cat-item.xl-size a {
+    text-decoration: none;
+    color: black;
+    font-weight: ;
+}
+.just-mobile-area {
+    width: 100%;
+}
+.notthing{
+    display: none;
+}
+
+
+
+
+.header-down {
+    padding: 0px !important;
+}
+.col-sm-2.xs-size {
+    width: 33.33%;
+    float: left;
+}
+
+.cat-item img {
+    height: 102px !important;
+}
+
+.col-sm-4.col-md-3.col-lg-2.col-xl-2.xs-size {
+    width: 50%;
+    float: left;
+}
+
+}
+
+
+@media(min-width:580px) and (max-width:700px){
+.cat-item img {
+    height: 89px !important;
+}
+.title {
+    font-size: 16px;
+}
+.our-mall {
+    height: 100px !important;
+}
+.brand-img {
+
+    bottom: 52% !important;
+    height: 48px !important;
+}
+.our-item {
+    margin-top: 5px;
+}
+
+
+
+
+}
+
+@media(min-width:700px) and (max-width:986px){
+.cat-item img {
+    height: 102px !important;
+}
+.our-mall {
+    height: 130px !important;
+}
+.cat-item img {
+    height: 102px !important;
+}
+
+.brand-img {
+    position: absolute;
+    bottom: 48%;
+    height: 47px;
+}
+
+
+}
